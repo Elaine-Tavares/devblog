@@ -1,0 +1,89 @@
+.container {
+  padding: 20px 16px;
+}
+
+/* título */
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container_cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* card */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 90%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* imagem */
+.image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* conteúdo */
+.content {
+  padding: 14px;
+}
+
+.content h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.content p {
+  font-size: 14px;
+  color: #475569;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* limita texto */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* link */
+.link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* 💻 TABLET */
+@media (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+
+
+  .card {
+    max-width: 500px;
+  }
+}
+
+/* 🖥️ DESKTOP */
+@media (min-width: 1024px) {
+  
+}

@@ -1,0 +1,118 @@
+.container {
+  padding: 20px 16px;
+}
+
+/* STATUS */
+.status {
+  padding: 20px;
+  text-align: center;
+}
+
+/* POST */
+.post {
+  margin-bottom: 40px;
+}
+
+.post h1 {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.post p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #334155;
+}
+
+/* COMMENTS */
+.commentsSection h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+/* FORM */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5f5;
+  font-size: 14px;
+}
+
+.form textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+.form button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form button:hover {
+  background-color: #2563eb;
+}
+
+/* EMPTY */
+.empty {
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* COMMENT LIST */
+.commentList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.comment {
+  padding: 12px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+
+.comment strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.comment p {
+  font-size: 14px;
+  color: #334155;
+}
+
+/* 💻 TABLET */
+@media (min-width: 768px) {
+  .container {
+    padding: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .post h1 {
+    font-size: 32px;
+  }
+
+  .post p {
+    font-size: 18px;
+  }
+}
