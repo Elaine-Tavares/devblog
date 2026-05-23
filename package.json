@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "devblog",
   "private": true,
   "version": "0.0.0",
@@ -24,5 +25,11 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
     "vite": "^8.0.12"
+=======
+  "dependencies": {
+    "axios": "^1.16.1",
+    "react-icons": "^5.6.0",
+    "react-router-dom": "^7.15.1"
+>>>>>>> 480e4567de51470c17cc04dad46e0aeff76fce89
   }
 }

@@ -1,0 +1,83 @@
+.container {
+  padding: 20px 16px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* HERO */
+.hero {
+  margin-bottom: 62px;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #475569;
+}
+
+/* QUIZ */
+.quiz {
+  background-color: #f1f5f9;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  width: 90%;
+}
+
+.quiz h2 {
+  margin-bottom: 8px;
+}
+
+.quiz p {
+  margin-bottom: 16px;
+}
+
+/* BOTÕES */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  background-color: #2563eb;
+}
+
+/* RESULTADO */
+.result {
+  margin-top: 16px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+/* 💻 TABLET */
+@media (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .quiz {
+    max-width: 500px;
+  }
+}
