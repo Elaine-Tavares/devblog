@@ -76,7 +76,7 @@ frontend/src/
 
 ## 🤝 Contato
 
-Desenvolvido por **[Elaine Tavares]**.  
+Desenvolvido por **Elaine Tavares**.  
 Vamos conversar sobre tecnologia, desenvolvimento fullstack ou novas oportunidades!
 
 - **LinkedIn:** https://www.linkedin.com/in/elainetavaresweb/
@@ -88,5 +88,6 @@ Vamos conversar sobre tecnologia, desenvolvimento fullstack ou novas oportunidad
 > *"O código é a lei, mas a experiência do usuário é a justiça."* ⚖️💻
 
 Projeto DevBlog - Data de início: 21/05/2026
+                  Data de conclusão: 23/05/2026
 
 **comando da versão estável do react-roter-dom: npm install react@18.2.0 react-dom@18.2.0 react-router-dom@6.22.3** 
