@@ -79,8 +79,8 @@ frontend/src/
 Desenvolvido por **[Elaine Tavares]**.  
 Vamos conversar sobre tecnologia, desenvolvimento fullstack ou novas oportunidades!
 
-- **LinkedIn:** [Seu Perfil](https://www.linkedin.com/in/elainetavaresweb/)
-- **Portfólio:** [seu-portfolio.com](https://elainetavaresweb.com/)
+- **LinkedIn:** https://www.linkedin.com/in/elainetavaresweb/
+- **Portfólio:** https://elainetavaresweb.com/
 - **Email:** contato@elainetavaresweb.com
 
 ---
